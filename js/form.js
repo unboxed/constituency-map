@@ -34,12 +34,12 @@
     spinner = new Spinner(spinnerOpts).spin(target);
 
   function populatePetitionDropdown() {
-    return $.getJSON("https://petition.parliament.uk/petitions.json?state=open")
+    return $.getJSON('https://petition.parliament.uk/petitions.json?state=open')
       .then(function (data) {
         if (data.data.length == 0) {
           // No open petitions means parliament is dissolved or the committee is waiting
           // to be reconstituted after a general election so load the closed petitions
-          return $.getJSON("https://petition.parliament.uk/petitions.json?state=closed");
+          return $.getJSON('https://petition.parliament.uk/petitions.json?state=closed');
         } else {
           return data;
         }
@@ -71,7 +71,7 @@
     if (variables.petition !== undefined) {
       petition_id = variables.petition;
     } else {
-      petition_id = $("#petition_dropdown").val();
+      petition_id = $('#petition_dropdown').val();
     }
 
     area = 'uk';
@@ -98,20 +98,20 @@
     var variables = {},
       keyValuePairs = window.location.search.substring(1).split('&');
 
-    if (keyValuePairs == "") return {};
+    if (keyValuePairs == '') return {};
     for (var i = 0; i < keyValuePairs.length; ++i) {
       var keyValuePair = keyValuePairs[i].split('=', 2);
       if (keyValuePair.length == 1)
-        variables[keyValuePair[0]] = "";
+        variables[keyValuePair[0]] = '';
       else
-        variables[keyValuePair[0]] = decodeURIComponent(keyValuePair[1].replace(/\+/g, " "));
+        variables[keyValuePair[0]] = decodeURIComponent(keyValuePair[1].replace(/\+/g, ' '));
     }
     return variables;
   };
 
   // Loads MP JSON data and fills constituency dropdown
   function loadMPData() {
-    return $.getJSON("https://petition.parliament.uk/constituencies.json")
+    return $.getJSON('https://petition.parliament.uk/constituencies.json')
       .done(function (data) {
         PetitionMap.mp_data = data;
         var sorted_mp_data = []
@@ -131,7 +131,7 @@
 
   // Load population JSON data
   function loadPopulationData() {
-    return $.getJSON("json/mps/population_ons.json")
+    return $.getJSON('json/mps/population_ons.json')
       .done(function (data) {
         PetitionMap.population_data = data;
       });
@@ -205,17 +205,17 @@
 
   function updateKey(fromBuckets) {
     if (PetitionMap.is_weighted) {
-      $('#t1').html("0% - " +  (fromBuckets[1] / 10000) + "%");
+      $('#t1').html('0% - ' +  (fromBuckets[1] / 10000) + '%');
       for (i = 1; i <= 6; i++) {
-        $('#t' + (i + 1)).html((fromBuckets[i] / 10000) + "% - " + (fromBuckets[i + 1] / 10000) + "%");
+        $('#t' + (i + 1)).html((fromBuckets[i] / 10000) + '% - ' + (fromBuckets[i + 1] / 10000) + '%');
       }
-      $('#t8').html((fromBuckets[7] / 10000) + "% +");
+      $('#t8').html((fromBuckets[7] / 10000) + '% +');
     } else {
-      $('#t1').html("1 - " +  fromBuckets[1]);
+      $('#t1').html('1 - ' +  fromBuckets[1]);
       for (i = 1; i <= 6; i++) {
-        $('#t' + (i + 1)).html((fromBuckets[i] + 1) + " - " +  fromBuckets[i + 1]);
+        $('#t' + (i + 1)).html((fromBuckets[i] + 1) + ' - ' +  fromBuckets[i + 1]);
       }
-      $('#t8').html((fromBuckets[7] + 1) + " +");
+      $('#t8').html((fromBuckets[7] + 1) + ' +');
     }
   }
 
@@ -291,7 +291,7 @@
   // Reset zoom and reload map with new area
   function changeArea() {
     spinner.spin(target);
-    PetitionMap.current_area = $("input[name='area']:checked").val();
+    PetitionMap.current_area = $('input[name="area"]:checked').val();
     PetitionMap.resetMapState();
     $.when(reloadMap()).then(function() {
       pushstateHandler();
@@ -299,8 +299,8 @@
   }
 
   function changeColouring() {
-    var colouring = $("input[name='weighted']:checked").val();
-    if (colouring === "percentage") {
+    var colouring = $('input[name="weighted"]:checked').val();
+    if (colouring === 'percentage') {
       PetitionMap.is_weighted = true;
     } else {
       PetitionMap.is_weighted = false;
@@ -321,7 +321,7 @@
 
   function showPetitionFromDropdown() {
     spinner.spin(target);
-    var petition_id = $("#petition_dropdown").val()
+    var petition_id = $('#petition_dropdown').val()
 
     $.when(loadPetition(petition_id, false)).then(function() {
       pushstateHandler();
@@ -339,9 +339,9 @@
   };
 
   function highlightConstituencyFromDropdown() {
-    var ons_code = $("#constituency").val(),
+    var ons_code = $('#constituency').val(),
       constituency_data = {
-        "id": ons_code
+        'id': ons_code
       };
 
     $(window).trigger('petitionmap:constituency-on', constituency_data);
@@ -372,9 +372,9 @@
     }
 
     $('#constituency_info').hide();
-    $('#constituency_info').html("");
+    $('#constituency_info').html('');
 
-    var count = "0",
+    var count = '0',
         data_found = false;
 
     $.each(PetitionMap.current_petition.data.attributes.signatures_by_constituency, function(i, v) {
@@ -384,11 +384,11 @@
       }
     });
 
-    $('#constituency_info').append('<h2>' + mpForConstituency.constituency + "</h2>");
-    $('#constituency_info').append('<p class="mp">' + (mpForConstituency.mp || "") + '</p>');
-    $('#constituency_info').append('<p class="party">' + (mpForConstituency.party || "") + '</p>');
+    $('#constituency_info').append('<h2>' + mpForConstituency.constituency + '</h2>');
+    $('#constituency_info').append('<p class="mp">' + (mpForConstituency.mp || '') + '</p>');
+    $('#constituency_info').append('<p class="party">' + (mpForConstituency.party || '') + '</p>');
     $('#constituency_info').append('<p class="signatures_count"><span class="data">' + numberWithCommas(count) + '</span> ' + pluralize(count, 'signature', 'signatures') + '</p>');
-    $('#constituency_info').append('<p class="percentage">' + percentage + "% of " + numberWithCommas(population) + " constituents" + '</p>');
+    $('#constituency_info').append('<p class="percentage">' + percentage + '% of ' + numberWithCommas(population) + ' constituents' + '</p>');
     if (!ui_hidden) {
       $('#constituency_info').show();
     }
@@ -401,18 +401,18 @@
   function toggleFormUI() {
     if (ui_hidden) {
       $('#petition_info, #key, #controls, #constituency_info').fadeIn();
-      $('footer .hide-ui').html("Hide UI");
+      $('footer .hide-ui').html('Hide UI');
       ui_hidden = false;
     } else {
       $('#petition_info, #key, #controls, #constituency_info').fadeOut();
-      $('footer .hide-ui').html("Show UI");
+      $('footer .hide-ui').html('Show UI');
       ui_hidden = true;
     }
   };
 
   function invokeAboutModal() {
     // Clone modal
-    var modal_panel = $("#about-modal .about-panel").clone();
+    var modal_panel = $('#about-modal .about-panel').clone();
 
     // Open modal
     vex.dialog.open({
@@ -428,7 +428,7 @@
       url = buildCurrentURL(state);
 
     // Clone modal
-    var modal_panel = $("#share-modal .share-panel").clone();
+    var modal_panel = $('#share-modal .share-panel').clone();
     modal_panel.find('input[name=petition-link]').val(url);
 
     // Open modal
@@ -444,18 +444,18 @@
 
 
   // Area selection
-  $("input[name='area']").on('change', changeArea);
+  $('input[name="area"]').on('change', changeArea);
 
   // Weighted selection
-  $("input[name='weighted']").on('change', changeColouring);
+  $('input[name="weighted"]').on('change', changeColouring);
 
   // Petition selection
-  $("#petition_dropdown").on('change', showPetitionFromDropdown);
+  $('#petition_dropdown').on('change', showPetitionFromDropdown);
 
   $('#petition_button').on('click', showPetitionFromUrlInput);
 
   // Constituency selection
-  $("#constituency").on('change', highlightConstituencyFromDropdown);
+  $('#constituency').on('change', highlightConstituencyFromDropdown);
 
   // React to constituency change events
   $(window).on('petitionmap:constituency-on', displayConstituencyInfo);
@@ -514,7 +514,7 @@
   $(window).on('popstate', popstateHandler);
 
   function numberWithCommas(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   }
 
   // Lock screen to portrait on mobile
@@ -524,17 +524,17 @@
           previousOrientation = window.orientation;
 
           if (window.orientation !== 0) {
-              $("#support").fadeIn();
+              $('#support').fadeIn();
               setTimeout(function () {
-                  alert("Landscape mode is not supported on mobile devices")
+                  alert('Landscape mode is not supported on mobile devices')
               }, 1000);
           } else {
-              $("#support").fadeOut();
+              $('#support').fadeOut();
           }
       }
   };
 
-  $(window).on("resize", check_orientation);
-  $(window).on("orientationchange", check_orientation);
+  $(window).on('resize', check_orientation);
+  $(window).on('orientationchange', check_orientation);
 
 })($, window.PetitionMap = window.PetitionMap || {});
