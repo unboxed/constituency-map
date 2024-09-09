@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fiddle (1.1.2)
+    foreman (0.88.1)
+    ostruct (0.6.0)
+    webrick (1.8.1)
+
+PLATFORMS
+  aarch64-linux
+  ruby
+
+DEPENDENCIES
+  fiddle
+  foreman
+  ostruct
+  webrick
+
+BUNDLED WITH
+   2.5.16
