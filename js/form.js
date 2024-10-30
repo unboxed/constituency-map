@@ -1,4 +1,5 @@
 (function($, PetitionMap) {
+  PetitionMap.type = PetitionMap.type || 'petition';
   PetitionMap.period = PetitionMap.period || 'current';
   PetitionMap.current_petition = PetitionMap.current_petition || undefined;
   PetitionMap.mp_data = PetitionMap.mp_data || undefined;
@@ -59,7 +60,7 @@
 
   // On start load the petition data
   $(document).ready(function() {
-    $.when(populatePetitionDropdown(), loadPopulationData(), loadMPData()).then(function() {
+    $.when(populatePetitionDropdown()).then(function() {
       preparePetitionAndView();
     });
   });
@@ -113,7 +114,7 @@
 
   // Loads MP JSON data and fills constituency dropdown
   function loadMPData() {
-    return $.getJSON(baseUrl + '/constituencies.json')
+    return $.getJSON(baseUrl + '/parliaments/' + PetitionMap.period + '/constituencies.json')
       .done(function (data) {
         PetitionMap.mp_data = data;
         var sorted_mp_data = []
@@ -176,16 +177,22 @@
 
     $.getJSON(petitionUrl + '.json')
       .done(function (data) {
+        PetitionMap.type = data.data.type
+        PetitionMap.period = (PetitionMap.type == 'archived-petition' ? data.data.parliament.period : 'current')
         PetitionMap.current_petition = data;
-        PetitionMap.weighted_current_petition = convertDataToSimplifiedFormat(data);
-        PetitionMap.signature_buckets = SignatureBuckets(PetitionMap.weighted_current_petition);
-        updateKey(PetitionMap.signature_buckets.buckets);
-        $.when(reloadMap()).then(function () {
-          deferredPetitionLoadedAndDrawn.resolve();
-        }, function() {
-          deferredPetitionLoadedAndDrawn.reject();
+
+        $.when(loadPopulationData(), loadMPData()).then(function() {
+          PetitionMap.weighted_current_petition = convertDataToSimplifiedFormat(data);
+          PetitionMap.signature_buckets = SignatureBuckets(PetitionMap.weighted_current_petition);
+          updateKey(PetitionMap.signature_buckets.buckets);
+
+          $.when(reloadMap()).then(function () {
+            deferredPetitionLoadedAndDrawn.resolve();
+          }, function() {
+            deferredPetitionLoadedAndDrawn.reject();
+          });
+          addPetitionToDropdown(petitionReference, data.data.attributes.action);
         });
-        addPetitionToDropdown(petitionReference, data.data.attributes.action);
       })
       .fail(function() {
         alert('Petition not found! (Looking for: '+petitionReference+')');
