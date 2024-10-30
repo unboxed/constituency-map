@@ -1,0 +1,18 @@
+services:
+  web:
+    init: true
+    image: ruby:3.3
+    entrypoint: "/app/docker-entrypoint.sh"
+    command: ["foreman", "start"]
+    working_dir: "/app"
+    environment:
+      PORT: ${PORT:-3000}
+    ports:
+      - "127.0.0.1:${PORT:-3000}:${PORT:-3000}"
+    restart: unless-stopped
+    volumes:
+      - ".:/app"
+      - "bundle:/usr/local/bundle"
+
+volumes:
+  bundle:

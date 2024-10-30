@@ -1,0 +1,2602 @@
+{
+  "N05000001": {
+    "constituency": "Belfast East",
+    "population": 102300
+  },
+  "N05000002": {
+    "constituency": "Belfast North",
+    "population": 106500
+  },
+  "N05000003": {
+    "constituency": "Belfast South and Mid Down",
+    "population": 119600
+  },
+  "N05000004": {
+    "constituency": "Belfast West",
+    "population": 103200
+  },
+  "N05000005": {
+    "constituency": "East Antrim",
+    "population": 97000
+  },
+  "N05000006": {
+    "constituency": "East Londonderry",
+    "population": 103300
+  },
+  "N05000007": {
+    "constituency": "Fermanagh and South Tyrone",
+    "population": 111800
+  },
+  "N05000008": {
+    "constituency": "Foyle",
+    "population": 97300
+  },
+  "N05000009": {
+    "constituency": "Lagan Valley",
+    "population": 112000
+  },
+  "N05000010": {
+    "constituency": "Mid Ulster",
+    "population": 105200
+  },
+  "N05000011": {
+    "constituency": "Newry and Armagh",
+    "population": 111700
+  },
+  "N05000012": {
+    "constituency": "North Antrim",
+    "population": 103800
+  },
+  "N05000013": {
+    "constituency": "North Down",
+    "population": 97900
+  },
+  "N05000014": {
+    "constituency": "South Antrim",
+    "population": 106400
+  },
+  "N05000015": {
+    "constituency": "South Down",
+    "population": 105200
+  },
+  "N05000016": {
+    "constituency": "Strangford",
+    "population": 98200
+  },
+  "N05000017": {
+    "constituency": "Upper Bann",
+    "population": 122000
+  },
+  "N05000018": {
+    "constituency": "West Tyrone",
+    "population": 99800
+  },
+  "S14000021": {
+    "constituency": "East Renfrewshire",
+    "population": 96800
+  },
+  "S14000027": {
+    "constituency": "Na h-Eileanan an Iar",
+    "population": 26100
+  },
+  "S14000045": {
+    "constituency": "Midlothian",
+    "population": 96500
+  },
+  "S14000048": {
+    "constituency": "North Ayrshire and Arran",
+    "population": 91500
+  },
+  "S14000051": {
+    "constituency": "Orkney and Shetland",
+    "population": 44900
+  },
+  "S14000060": {
+    "constituency": "Aberdeen North",
+    "population": 111900
+  },
+  "S14000061": {
+    "constituency": "Aberdeen South",
+    "population": 97600
+  },
+  "S14000062": {
+    "constituency": "Aberdeenshire North and Moray East",
+    "population": 112100
+  },
+  "S14000063": {
+    "constituency": "Airdrie and Shotts",
+    "population": 93000
+  },
+  "S14000064": {
+    "constituency": "Alloa and Grangemouth",
+    "population": 94400
+  },
+  "S14000065": {
+    "constituency": "Angus and Perthshire Glens",
+    "population": 97400
+  },
+  "S14000066": {
+    "constituency": "Arbroath and Broughty Ferry",
+    "population": 99600
+  },
+  "S14000067": {
+    "constituency": "Argyll, Bute and South Lochaber",
+    "population": 91100
+  },
+  "S14000068": {
+    "constituency": "Bathgate and Linlithgow",
+    "population": 94500
+  },
+  "S14000069": {
+    "constituency": "Caithness, Sutherland and Easter Ross",
+    "population": 96000
+  },
+  "S14000070": {
+    "constituency": "Coatbridge and Bellshill",
+    "population": 95000
+  },
+  "S14000071": {
+    "constituency": "Cowdenbeath and Kirkcaldy",
+    "population": 95000
+  },
+  "S14000072": {
+    "constituency": "Cumbernauld and Kirkintilloch",
+    "population": 91900
+  },
+  "S14000073": {
+    "constituency": "Dumfries and Galloway",
+    "population": 95700
+  },
+  "S14000074": {
+    "constituency": "Dumfriesshire, Clydesdale and Tweeddale",
+    "population": 87700
+  },
+  "S14000075": {
+    "constituency": "Dundee Central",
+    "population": 105900
+  },
+  "S14000076": {
+    "constituency": "Dunfermline and Dollar",
+    "population": 95600
+  },
+  "S14000077": {
+    "constituency": "East Kilbride and Strathaven",
+    "population": 95900
+  },
+  "S14000078": {
+    "constituency": "Edinburgh East and Musselburgh",
+    "population": 113700
+  },
+  "S14000079": {
+    "constituency": "Edinburgh North and Leith",
+    "population": 110100
+  },
+  "S14000080": {
+    "constituency": "Edinburgh South",
+    "population": 107000
+  },
+  "S14000081": {
+    "constituency": "Edinburgh South West",
+    "population": 99900
+  },
+  "S14000082": {
+    "constituency": "Edinburgh West",
+    "population": 98500
+  },
+  "S14000083": {
+    "constituency": "Falkirk",
+    "population": 96700
+  },
+  "S14000084": {
+    "constituency": "Glasgow East",
+    "population": 99700
+  },
+  "S14000085": {
+    "constituency": "Glasgow North",
+    "population": 107100
+  },
+  "S14000086": {
+    "constituency": "Glasgow North East",
+    "population": 109100
+  },
+  "S14000087": {
+    "constituency": "Glasgow South",
+    "population": 96200
+  },
+  "S14000088": {
+    "constituency": "Glasgow South West",
+    "population": 91400
+  },
+  "S14000089": {
+    "constituency": "Glasgow West",
+    "population": 99100
+  },
+  "S14000090": {
+    "constituency": "Glenrothes and Mid Fife",
+    "population": 92700
+  },
+  "S14000091": {
+    "constituency": "Gordon and Buchan",
+    "population": 92500
+  },
+  "S14000092": {
+    "constituency": "Hamilton and Clyde Valley",
+    "population": 97400
+  },
+  "S14000093": {
+    "constituency": "Inverclyde and Renfrewshire West",
+    "population": 90000
+  },
+  "S14000094": {
+    "constituency": "Inverness, Skye and West Ross-shire",
+    "population": 105000
+  },
+  "S14000095": {
+    "constituency": "Livingston",
+    "population": 102200
+  },
+  "S14000096": {
+    "constituency": "Lothian East",
+    "population": 97600
+  },
+  "S14000097": {
+    "constituency": "Mid Dunbartonshire",
+    "population": 95400
+  },
+  "S14000098": {
+    "constituency": "Moray West, Nairn and Strathspey",
+    "population": 98700
+  },
+  "S14000099": {
+    "constituency": "Motherwell, Wishaw and Carluke",
+    "population": 97500
+  },
+  "S14000100": {
+    "constituency": "North East Fife",
+    "population": 92300
+  },
+  "S14000101": {
+    "constituency": "Paisley and Renfrewshire North",
+    "population": 93200
+  },
+  "S14000102": {
+    "constituency": "Paisley and Renfrewshire South",
+    "population": 94100
+  },
+  "S14000103": {
+    "constituency": "Perth and Kinross-shire",
+    "population": 101700
+  },
+  "S14000104": {
+    "constituency": "Rutherglen",
+    "population": 93700
+  },
+  "S14000105": {
+    "constituency": "Stirling and Strathallan",
+    "population": 102000
+  },
+  "S14000106": {
+    "constituency": "West Dunbartonshire",
+    "population": 91500
+  },
+  "S14000107": {
+    "constituency": "Ayr, Carrick and Cumnock",
+    "population": 90300
+  },
+  "S14000108": {
+    "constituency": "Berwickshire, Roxburgh and Selkirk",
+    "population": 96600
+  },
+  "S14000109": {
+    "constituency": "Central Ayrshire",
+    "population": 87700
+  },
+  "S14000110": {
+    "constituency": "Kilmarnock and Loudoun",
+    "population": 95700
+  },
+  "S14000111": {
+    "constituency": "West Aberdeenshire and Kincardine",
+    "population": 97500
+  },
+  "E14001063": {
+    "constituency": "Aldershot",
+    "population": 117000
+  },
+  "E14001064": {
+    "constituency": "Aldridge-Brownhills",
+    "population": 93600
+  },
+  "E14001065": {
+    "constituency": "Altrincham and Sale West",
+    "population": 101000
+  },
+  "E14001066": {
+    "constituency": "Amber Valley",
+    "population": 90300
+  },
+  "E14001067": {
+    "constituency": "Arundel and South Downs",
+    "population": 97200
+  },
+  "E14001068": {
+    "constituency": "Ashfield",
+    "population": 95000
+  },
+  "E14001069": {
+    "constituency": "Ashford",
+    "population": 107000
+  },
+  "E14001070": {
+    "constituency": "Ashton-under-Lyne",
+    "population": 100000
+  },
+  "E14001071": {
+    "constituency": "Aylesbury",
+    "population": 109000
+  },
+  "E14001072": {
+    "constituency": "Banbury",
+    "population": 102000
+  },
+  "E14001073": {
+    "constituency": "Barking",
+    "population": 134000
+  },
+  "E14001074": {
+    "constituency": "Barnsley North",
+    "population": 104000
+  },
+  "E14001075": {
+    "constituency": "Barnsley South",
+    "population": 105000
+  },
+  "E14001076": {
+    "constituency": "Barrow and Furness",
+    "population": 97400
+  },
+  "E14001077": {
+    "constituency": "Basildon and Billericay",
+    "population": 108000
+  },
+  "E14001078": {
+    "constituency": "Basingstoke",
+    "population": 110000
+  },
+  "E14001079": {
+    "constituency": "Bassetlaw",
+    "population": 104000
+  },
+  "E14001080": {
+    "constituency": "Bath",
+    "population": 102000
+  },
+  "E14001081": {
+    "constituency": "Battersea",
+    "population": 109000
+  },
+  "E14001082": {
+    "constituency": "Beaconsfield",
+    "population": 96500
+  },
+  "E14001083": {
+    "constituency": "Beckenham and Penge",
+    "population": 107000
+  },
+  "E14001084": {
+    "constituency": "Bedford",
+    "population": 110000
+  },
+  "E14001085": {
+    "constituency": "Bermondsey and Old Southwark",
+    "population": 107000
+  },
+  "E14001086": {
+    "constituency": "Bethnal Green and Stepney",
+    "population": 127000
+  },
+  "E14001087": {
+    "constituency": "Beverley and Holderness",
+    "population": 89500
+  },
+  "E14001088": {
+    "constituency": "Bexhill and Battle",
+    "population": 89100
+  },
+  "E14001089": {
+    "constituency": "Bexleyheath and Crayford",
+    "population": 98700
+  },
+  "E14001090": {
+    "constituency": "Bicester and Woodstock",
+    "population": 101000
+  },
+  "E14001091": {
+    "constituency": "Birkenhead",
+    "population": 106000
+  },
+  "E14001092": {
+    "constituency": "Birmingham Edgbaston",
+    "population": 108000
+  },
+  "E14001093": {
+    "constituency": "Birmingham Erdington",
+    "population": 122000
+  },
+  "E14001094": {
+    "constituency": "Birmingham Hall Green and Moseley",
+    "population": 117000
+  },
+  "E14001095": {
+    "constituency": "Birmingham Hodge Hill and Solihull North",
+    "population": 122000
+  },
+  "E14001096": {
+    "constituency": "Birmingham Ladywood",
+    "population": 152000
+  },
+  "E14001097": {
+    "constituency": "Birmingham Northfield",
+    "population": 108000
+  },
+  "E14001098": {
+    "constituency": "Birmingham Perry Barr",
+    "population": 122000
+  },
+  "E14001099": {
+    "constituency": "Birmingham Selly Oak",
+    "population": 108000
+  },
+  "E14001100": {
+    "constituency": "Birmingham Yardley",
+    "population": 113000
+  },
+  "E14001101": {
+    "constituency": "Bishop Auckland",
+    "population": 92300
+  },
+  "E14001102": {
+    "constituency": "Blackburn",
+    "population": 112000
+  },
+  "E14001103": {
+    "constituency": "Blackley and Middleton South",
+    "population": 111000
+  },
+  "E14001104": {
+    "constituency": "Blackpool North and Fleetwood",
+    "population": 95000
+  },
+  "E14001105": {
+    "constituency": "Blackpool South",
+    "population": 109000
+  },
+  "E14001106": {
+    "constituency": "Blaydon and Consett",
+    "population": 91600
+  },
+  "E14001107": {
+    "constituency": "Blyth and Ashington",
+    "population": 102000
+  },
+  "E14001108": {
+    "constituency": "Bognor Regis and Littlehampton",
+    "population": 107000
+  },
+  "E14001109": {
+    "constituency": "Bolsover",
+    "population": 100000
+  },
+  "E14001110": {
+    "constituency": "Bolton North East",
+    "population": 114000
+  },
+  "E14001111": {
+    "constituency": "Bolton South and Walkden",
+    "population": 124000
+  },
+  "E14001112": {
+    "constituency": "Bolton West",
+    "population": 98300
+  },
+  "E14001113": {
+    "constituency": "Bootle",
+    "population": 101000
+  },
+  "E14001114": {
+    "constituency": "Boston and Skegness",
+    "population": 116000
+  },
+  "E14001115": {
+    "constituency": "Bournemouth East",
+    "population": 107000
+  },
+  "E14001116": {
+    "constituency": "Bournemouth West",
+    "population": 107000
+  },
+  "E14001117": {
+    "constituency": "Bracknell",
+    "population": 102000
+  },
+  "E14001118": {
+    "constituency": "Bradford East",
+    "population": 119000
+  },
+  "E14001119": {
+    "constituency": "Bradford South",
+    "population": 109000
+  },
+  "E14001120": {
+    "constituency": "Bradford West",
+    "population": 121000
+  },
+  "E14001121": {
+    "constituency": "Braintree",
+    "population": 104000
+  },
+  "E14001122": {
+    "constituency": "Brent East",
+    "population": 135000
+  },
+  "E14001123": {
+    "constituency": "Brent West",
+    "population": 129000
+  },
+  "E14001124": {
+    "constituency": "Brentford and Isleworth",
+    "population": 134000
+  },
+  "E14001125": {
+    "constituency": "Brentwood and Ongar",
+    "population": 98100
+  },
+  "E14001126": {
+    "constituency": "Bridgwater",
+    "population": 99200
+  },
+  "E14001127": {
+    "constituency": "Bridlington and The Wolds",
+    "population": 92600
+  },
+  "E14001128": {
+    "constituency": "Brigg and Immingham",
+    "population": 90900
+  },
+  "E14001129": {
+    "constituency": "Brighton Kemptown and Peacehaven",
+    "population": 95400
+  },
+  "E14001130": {
+    "constituency": "Brighton Pavilion",
+    "population": 103000
+  },
+  "E14001131": {
+    "constituency": "Bristol Central",
+    "population": 93700
+  },
+  "E14001132": {
+    "constituency": "Bristol East",
+    "population": 110000
+  },
+  "E14001133": {
+    "constituency": "Bristol North East",
+    "population": 98700
+  },
+  "E14001134": {
+    "constituency": "Bristol North West",
+    "population": 109000
+  },
+  "E14001135": {
+    "constituency": "Bristol South",
+    "population": 104000
+  },
+  "E14001136": {
+    "constituency": "Broadland and Fakenham",
+    "population": 93300
+  },
+  "E14001137": {
+    "constituency": "Bromley and Biggin Hill",
+    "population": 97600
+  },
+  "E14001138": {
+    "constituency": "Bromsgrove",
+    "population": 99200
+  },
+  "E14001139": {
+    "constituency": "Broxbourne",
+    "population": 108000
+  },
+  "E14001140": {
+    "constituency": "Broxtowe",
+    "population": 94500
+  },
+  "E14001141": {
+    "constituency": "Buckingham and Bletchley",
+    "population": 106000
+  },
+  "E14001142": {
+    "constituency": "Burnley",
+    "population": 110000
+  },
+  "E14001143": {
+    "constituency": "Burton and Uttoxeter",
+    "population": 113000
+  },
+  "E14001144": {
+    "constituency": "Bury North",
+    "population": 103000
+  },
+  "E14001145": {
+    "constituency": "Bury South",
+    "population": 107000
+  },
+  "E14001146": {
+    "constituency": "Bury St Edmunds and Stowmarket",
+    "population": 102000
+  },
+  "E14001147": {
+    "constituency": "Calder Valley",
+    "population": 99000
+  },
+  "E14001148": {
+    "constituency": "Camborne and Redruth",
+    "population": 99100
+  },
+  "E14001149": {
+    "constituency": "Cambridge",
+    "population": 124000
+  },
+  "E14001150": {
+    "constituency": "Cannock Chase",
+    "population": 101000
+  },
+  "E14001151": {
+    "constituency": "Canterbury",
+    "population": 107000
+  },
+  "E14001152": {
+    "constituency": "Carlisle",
+    "population": 103000
+  },
+  "E14001153": {
+    "constituency": "Carshalton and Wallington",
+    "population": 105000
+  },
+  "E14001154": {
+    "constituency": "Castle Point",
+    "population": 91500
+  },
+  "E14001155": {
+    "constituency": "Central Devon",
+    "population": 93200
+  },
+  "E14001156": {
+    "constituency": "Central Suffolk and North Ipswich",
+    "population": 94200
+  },
+  "E14001157": {
+    "constituency": "Chatham and Aylesford",
+    "population": 106000
+  },
+  "E14001158": {
+    "constituency": "Cheadle",
+    "population": 95500
+  },
+  "E14001159": {
+    "constituency": "Chelmsford",
+    "population": 107000
+  },
+  "E14001160": {
+    "constituency": "Chelsea and Fulham",
+    "population": 120000
+  },
+  "E14001161": {
+    "constituency": "Cheltenham",
+    "population": 100000
+  },
+  "E14001162": {
+    "constituency": "Chesham and Amersham",
+    "population": 99100
+  },
+  "E14001163": {
+    "constituency": "Chester North and Neston",
+    "population": 93800
+  },
+  "E14001164": {
+    "constituency": "Chester South and Eddisbury",
+    "population": 93200
+  },
+  "E14001165": {
+    "constituency": "Chesterfield",
+    "population": 94200
+  },
+  "E14001166": {
+    "constituency": "Chichester",
+    "population": 104000
+  },
+  "E14001167": {
+    "constituency": "Chingford and Woodford Green",
+    "population": 111000
+  },
+  "E14001168": {
+    "constituency": "Chippenham",
+    "population": 98000
+  },
+  "E14001169": {
+    "constituency": "Chipping Barnet",
+    "population": 113000
+  },
+  "E14001170": {
+    "constituency": "Chorley",
+    "population": 101000
+  },
+  "E14001171": {
+    "constituency": "Christchurch",
+    "population": 88100
+  },
+  "E14001172": {
+    "constituency": "Cities of London and Westminster",
+    "population": 120000
+  },
+  "E14001173": {
+    "constituency": "City of Durham",
+    "population": 101000
+  },
+  "E14001174": {
+    "constituency": "Clacton",
+    "population": 98200
+  },
+  "E14001175": {
+    "constituency": "Clapham and Brixton Hill",
+    "population": 105000
+  },
+  "E14001176": {
+    "constituency": "Colchester",
+    "population": 114000
+  },
+  "E14001177": {
+    "constituency": "Colne Valley",
+    "population": 93000
+  },
+  "E14001178": {
+    "constituency": "Congleton",
+    "population": 89900
+  },
+  "E14001179": {
+    "constituency": "Corby and East Northamptonshire",
+    "population": 117000
+  },
+  "E14001180": {
+    "constituency": "Coventry East",
+    "population": 118000
+  },
+  "E14001181": {
+    "constituency": "Coventry North West",
+    "population": 107000
+  },
+  "E14001182": {
+    "constituency": "Coventry South",
+    "population": 120000
+  },
+  "E14001183": {
+    "constituency": "Cramlington and Killingworth",
+    "population": 96600
+  },
+  "E14001184": {
+    "constituency": "Crawley",
+    "population": 118000
+  },
+  "E14001185": {
+    "constituency": "Crewe and Nantwich",
+    "population": 110000
+  },
+  "E14001186": {
+    "constituency": "Croydon East",
+    "population": 110000
+  },
+  "E14001187": {
+    "constituency": "Croydon South",
+    "population": 101000
+  },
+  "E14001188": {
+    "constituency": "Croydon West",
+    "population": 123000
+  },
+  "E14001189": {
+    "constituency": "Dagenham and Rainham",
+    "population": 119000
+  },
+  "E14001190": {
+    "constituency": "Darlington",
+    "population": 97400
+  },
+  "E14001191": {
+    "constituency": "Dartford",
+    "population": 109000
+  },
+  "E14001192": {
+    "constituency": "Daventry",
+    "population": 105000
+  },
+  "E14001193": {
+    "constituency": "Derby North",
+    "population": 103000
+  },
+  "E14001194": {
+    "constituency": "Derby South",
+    "population": 89300
+  },
+  "E14001195": {
+    "constituency": "Derbyshire Dales",
+    "population": 119000
+  },
+  "E14001196": {
+    "constituency": "Dewsbury and Batley",
+    "population": 104000
+  },
+  "E14001197": {
+    "constituency": "Didcot and Wantage",
+    "population": 106000
+  },
+  "E14001198": {
+    "constituency": "Doncaster Central",
+    "population": 112000
+  },
+  "E14001199": {
+    "constituency": "Doncaster East and the Isle of Axholme",
+    "population": 93700
+  },
+  "E14001200": {
+    "constituency": "Doncaster North",
+    "population": 96700
+  },
+  "E14001201": {
+    "constituency": "Dorking and Horley",
+    "population": 93800
+  },
+  "E14001202": {
+    "constituency": "Dover and Deal",
+    "population": 103000
+  },
+  "E14001203": {
+    "constituency": "Droitwich and Evesham",
+    "population": 102000
+  },
+  "E14001204": {
+    "constituency": "Dudley",
+    "population": 101000
+  },
+  "E14001205": {
+    "constituency": "Dulwich and West Norwood",
+    "population": 107000
+  },
+  "E14001206": {
+    "constituency": "Dunstable and Leighton Buzzard",
+    "population": 108000
+  },
+  "E14001207": {
+    "constituency": "Ealing Central and Acton",
+    "population": 132000
+  },
+  "E14001208": {
+    "constituency": "Ealing North",
+    "population": 128000
+  },
+  "E14001209": {
+    "constituency": "Ealing Southall",
+    "population": 125000
+  },
+  "E14001210": {
+    "constituency": "Earley and Woodley",
+    "population": 106000
+  },
+  "E14001211": {
+    "constituency": "Easington",
+    "population": 93200
+  },
+  "E14001212": {
+    "constituency": "East Grinstead and Uckfield",
+    "population": 131000
+  },
+  "E14001213": {
+    "constituency": "East Ham",
+    "population": 90800
+  },
+  "E14001214": {
+    "constituency": "East Hampshire",
+    "population": 99200
+  },
+  "E14001215": {
+    "constituency": "East Surrey",
+    "population": 101000
+  },
+  "E14001216": {
+    "constituency": "East Thanet",
+    "population": 99600
+  },
+  "E14001217": {
+    "constituency": "East Wiltshire",
+    "population": 102000
+  },
+  "E14001218": {
+    "constituency": "East Worthing and Shoreham",
+    "population": 93500
+  },
+  "E14001219": {
+    "constituency": "Eastbourne",
+    "population": 95600
+  },
+  "E14001220": {
+    "constituency": "Eastleigh",
+    "population": 105000
+  },
+  "E14001221": {
+    "constituency": "Edmonton and Winchmore Hill",
+    "population": 127000
+  },
+  "E14001222": {
+    "constituency": "Ellesmere Port and Bromborough",
+    "population": 95100
+  },
+  "E14001223": {
+    "constituency": "Eltham and Chislehurst",
+    "population": 110000
+  },
+  "E14001224": {
+    "constituency": "Ely and East Cambridgeshire",
+    "population": 105000
+  },
+  "E14001225": {
+    "constituency": "Enfield North",
+    "population": 127000
+  },
+  "E14001226": {
+    "constituency": "Epping Forest",
+    "population": 103000
+  },
+  "E14001227": {
+    "constituency": "Epsom and Ewell",
+    "population": 108000
+  },
+  "E14001228": {
+    "constituency": "Erewash",
+    "population": 95200
+  },
+  "E14001229": {
+    "constituency": "Erith and Thamesmead",
+    "population": 135000
+  },
+  "E14001230": {
+    "constituency": "Esher and Walton",
+    "population": 103000
+  },
+  "E14001231": {
+    "constituency": "Exeter",
+    "population": 102000
+  },
+  "E14001232": {
+    "constituency": "Exmouth and Exeter East",
+    "population": 99900
+  },
+  "E14001233": {
+    "constituency": "Fareham and Waterlooville",
+    "population": 98800
+  },
+  "E14001234": {
+    "constituency": "Farnham and Bordon",
+    "population": 100000
+  },
+  "E14001235": {
+    "constituency": "Faversham and Mid Kent",
+    "population": 99100
+  },
+  "E14001236": {
+    "constituency": "Feltham and Heston",
+    "population": 133000
+  },
+  "E14001237": {
+    "constituency": "Filton and Bradley Stoke",
+    "population": 107000
+  },
+  "E14001238": {
+    "constituency": "Finchley and Golders Green",
+    "population": 126000
+  },
+  "E14001239": {
+    "constituency": "Folkestone and Hythe",
+    "population": 91800
+  },
+  "E14001240": {
+    "constituency": "Forest of Dean",
+    "population": 91600
+  },
+  "E14001241": {
+    "constituency": "Frome and East Somerset",
+    "population": 92200
+  },
+  "E14001242": {
+    "constituency": "Fylde",
+    "population": 96300
+  },
+  "E14001243": {
+    "constituency": "Gainsborough",
+    "population": 95100
+  },
+  "E14001244": {
+    "constituency": "Gateshead Central and Whickham",
+    "population": 98000
+  },
+  "E14001245": {
+    "constituency": "Gedling",
+    "population": 101000
+  },
+  "E14001246": {
+    "constituency": "Gillingham and Rainham",
+    "population": 102000
+  },
+  "E14001247": {
+    "constituency": "Glastonbury and Somerton",
+    "population": 92000
+  },
+  "E14001248": {
+    "constituency": "Gloucester",
+    "population": 116000
+  },
+  "E14001249": {
+    "constituency": "Godalming and Ash",
+    "population": 96500
+  },
+  "E14001250": {
+    "constituency": "Goole and Pocklington",
+    "population": 103000
+  },
+  "E14001251": {
+    "constituency": "Gorton and Denton",
+    "population": 114000
+  },
+  "E14001252": {
+    "constituency": "Gosport",
+    "population": 96300
+  },
+  "E14001253": {
+    "constituency": "Grantham and Bourne",
+    "population": 98800
+  },
+  "E14001254": {
+    "constituency": "Gravesham",
+    "population": 107000
+  },
+  "E14001255": {
+    "constituency": "Great Grimsby and Cleethorpes",
+    "population": 107000
+  },
+  "E14001256": {
+    "constituency": "Great Yarmouth",
+    "population": 99800
+  },
+  "E14001257": {
+    "constituency": "Greenwich and Woolwich",
+    "population": 117000
+  },
+  "E14001258": {
+    "constituency": "Guildford",
+    "population": 102000
+  },
+  "E14001259": {
+    "constituency": "Hackney North and Stoke Newington",
+    "population": 116000
+  },
+  "E14001260": {
+    "constituency": "Hackney South and Shoreditch",
+    "population": 113000
+  },
+  "E14001261": {
+    "constituency": "Halesowen",
+    "population": 94700
+  },
+  "E14001262": {
+    "constituency": "Halifax",
+    "population": 108000
+  },
+  "E14001263": {
+    "constituency": "Hamble Valley",
+    "population": 102000
+  },
+  "E14001264": {
+    "constituency": "Hammersmith and Chiswick",
+    "population": 116000
+  },
+  "E14001265": {
+    "constituency": "Hampstead and Highgate",
+    "population": 117000
+  },
+  "E14001266": {
+    "constituency": "Harborough, Oadby and Wigston",
+    "population": 101000
+  },
+  "E14001267": {
+    "constituency": "Harlow",
+    "population": 111000
+  },
+  "E14001268": {
+    "constituency": "Harpenden and Berkhamsted",
+    "population": 95100
+  },
+  "E14001269": {
+    "constituency": "Harrogate and Knaresborough",
+    "population": 101000
+  },
+  "E14001270": {
+    "constituency": "Harrow East",
+    "population": 118000
+  },
+  "E14001271": {
+    "constituency": "Harrow West",
+    "population": 121000
+  },
+  "E14001272": {
+    "constituency": "Hartlepool",
+    "population": 92300
+  },
+  "E14001273": {
+    "constituency": "Harwich and North Essex",
+    "population": 98100
+  },
+  "E14001274": {
+    "constituency": "Hastings and Rye",
+    "population": 105000
+  },
+  "E14001275": {
+    "constituency": "Havant",
+    "population": 95000
+  },
+  "E14001276": {
+    "constituency": "Hayes and Harlington",
+    "population": 126000
+  },
+  "E14001277": {
+    "constituency": "Hazel Grove",
+    "population": 94500
+  },
+  "E14001278": {
+    "constituency": "Hemel Hempstead",
+    "population": 103000
+  },
+  "E14001279": {
+    "constituency": "Hendon",
+    "population": 131000
+  },
+  "E14001280": {
+    "constituency": "Henley and Thame",
+    "population": 95200
+  },
+  "E14001281": {
+    "constituency": "Hereford and South Herefordshire",
+    "population": 96500
+  },
+  "E14001282": {
+    "constituency": "Herne Bay and Sandwich",
+    "population": 99000
+  },
+  "E14001283": {
+    "constituency": "Hertford and Stortford",
+    "population": 106000
+  },
+  "E14001284": {
+    "constituency": "Hertsmere",
+    "population": 106000
+  },
+  "E14001285": {
+    "constituency": "Hexham",
+    "population": 92100
+  },
+  "E14001286": {
+    "constituency": "Heywood and Middleton North",
+    "population": 100000
+  },
+  "E14001287": {
+    "constituency": "High Peak",
+    "population": 90900
+  },
+  "E14001288": {
+    "constituency": "Hinckley and Bosworth",
+    "population": 98500
+  },
+  "E14001289": {
+    "constituency": "Hitchin",
+    "population": 98700
+  },
+  "E14001290": {
+    "constituency": "Holborn and St Pancras",
+    "population": 106000
+  },
+  "E14001291": {
+    "constituency": "Honiton and Sidmouth",
+    "population": 91700
+  },
+  "E14001292": {
+    "constituency": "Hornchurch and Upminster",
+    "population": 108000
+  },
+  "E14001293": {
+    "constituency": "Hornsey and Friern Barnet",
+    "population": 103000
+  },
+  "E14001294": {
+    "constituency": "Horsham",
+    "population": 104000
+  },
+  "E14001295": {
+    "constituency": "Houghton and Sunderland South",
+    "population": 100000
+  },
+  "E14001296": {
+    "constituency": "Hove and Portslade",
+    "population": 102000
+  },
+  "E14001297": {
+    "constituency": "Huddersfield",
+    "population": 112000
+  },
+  "E14001298": {
+    "constituency": "Huntingdon",
+    "population": 108000
+  },
+  "E14001299": {
+    "constituency": "Hyndburn",
+    "population": 94000
+  },
+  "E14001300": {
+    "constituency": "Ilford North",
+    "population": 119000
+  },
+  "E14001301": {
+    "constituency": "Ilford South",
+    "population": 131000
+  },
+  "E14001302": {
+    "constituency": "Ipswich",
+    "population": 115000
+  },
+  "E14001303": {
+    "constituency": "Isle of Wight East",
+    "population": 69600
+  },
+  "E14001304": {
+    "constituency": "Isle of Wight West",
+    "population": 70900
+  },
+  "E14001305": {
+    "constituency": "Islington North",
+    "population": 110000
+  },
+  "E14001306": {
+    "constituency": "Islington South and Finsbury",
+    "population": 116000
+  },
+  "E14001307": {
+    "constituency": "Jarrow and Gateshead East",
+    "population": 93800
+  },
+  "E14001308": {
+    "constituency": "Keighley and Ilkley",
+    "population": 99400
+  },
+  "E14001309": {
+    "constituency": "Kenilworth and Southam",
+    "population": 93700
+  },
+  "E14001310": {
+    "constituency": "Kensington and Bayswater",
+    "population": 133000
+  },
+  "E14001311": {
+    "constituency": "Kettering",
+    "population": 111000
+  },
+  "E14001312": {
+    "constituency": "Kingston and Surbiton",
+    "population": 115000
+  },
+  "E14001313": {
+    "constituency": "Kingston upon Hull East",
+    "population": 103000
+  },
+  "E14001314": {
+    "constituency": "Kingston upon Hull North and Cottingham",
+    "population": 116000
+  },
+  "E14001315": {
+    "constituency": "Kingston upon Hull West and Haltemprice",
+    "population": 105000
+  },
+  "E14001316": {
+    "constituency": "Kingswinford and South Staffordshire",
+    "population": 88500
+  },
+  "E14001317": {
+    "constituency": "Knowsley",
+    "population": 93600
+  },
+  "E14001318": {
+    "constituency": "Lancaster and Wyre",
+    "population": 96800
+  },
+  "E14001319": {
+    "constituency": "Leeds Central and Headingley",
+    "population": 106000
+  },
+  "E14001320": {
+    "constituency": "Leeds East",
+    "population": 113000
+  },
+  "E14001321": {
+    "constituency": "Leeds North East",
+    "population": 96200
+  },
+  "E14001322": {
+    "constituency": "Leeds North West",
+    "population": 92700
+  },
+  "E14001323": {
+    "constituency": "Leeds South",
+    "population": 95700
+  },
+  "E14001324": {
+    "constituency": "Leeds South West and Morley",
+    "population": 124000
+  },
+  "E14001325": {
+    "constituency": "Leeds West and Pudsey",
+    "population": 101000
+  },
+  "E14001326": {
+    "constituency": "Leicester East",
+    "population": 125000
+  },
+  "E14001327": {
+    "constituency": "Leicester South",
+    "population": 119000
+  },
+  "E14001328": {
+    "constituency": "Leicester West",
+    "population": 125000
+  },
+  "E14001329": {
+    "constituency": "Leigh and Atherton",
+    "population": 108000
+  },
+  "E14001330": {
+    "constituency": "Lewes",
+    "population": 95100
+  },
+  "E14001331": {
+    "constituency": "Lewisham East",
+    "population": 117000
+  },
+  "E14001332": {
+    "constituency": "Lewisham North",
+    "population": 117000
+  },
+  "E14001333": {
+    "constituency": "Lewisham West and East Dulwich",
+    "population": 99600
+  },
+  "E14001334": {
+    "constituency": "Leyton and Wanstead",
+    "population": 117000
+  },
+  "E14001335": {
+    "constituency": "Lichfield",
+    "population": 96200
+  },
+  "E14001336": {
+    "constituency": "Lincoln",
+    "population": 117000
+  },
+  "E14001337": {
+    "constituency": "Liverpool Garston",
+    "population": 94100
+  },
+  "E14001338": {
+    "constituency": "Liverpool Riverside",
+    "population": 118000
+  },
+  "E14001339": {
+    "constituency": "Liverpool Walton",
+    "population": 102000
+  },
+  "E14001340": {
+    "constituency": "Liverpool Wavertree",
+    "population": 103000
+  },
+  "E14001341": {
+    "constituency": "Liverpool West Derby",
+    "population": 97300
+  },
+  "E14001342": {
+    "constituency": "Loughborough",
+    "population": 101000
+  },
+  "E14001343": {
+    "constituency": "Louth and Horncastle",
+    "population": 96600
+  },
+  "E14001344": {
+    "constituency": "Lowestoft",
+    "population": 94600
+  },
+  "E14001345": {
+    "constituency": "Luton North",
+    "population": 116000
+  },
+  "E14001346": {
+    "constituency": "Luton South and South Bedfordshire",
+    "population": 123000
+  },
+  "E14001347": {
+    "constituency": "Macclesfield",
+    "population": 95600
+  },
+  "E14001348": {
+    "constituency": "Maidenhead",
+    "population": 104000
+  },
+  "E14001349": {
+    "constituency": "Maidstone and Malling",
+    "population": 109000
+  },
+  "E14001350": {
+    "constituency": "Makerfield",
+    "population": 103000
+  },
+  "E14001351": {
+    "constituency": "Maldon",
+    "population": 100000
+  },
+  "E14001352": {
+    "constituency": "Manchester Central",
+    "population": 122000
+  },
+  "E14001353": {
+    "constituency": "Manchester Rusholme",
+    "population": 111000
+  },
+  "E14001354": {
+    "constituency": "Manchester Withington",
+    "population": 91000
+  },
+  "E14001355": {
+    "constituency": "Mansfield",
+    "population": 105000
+  },
+  "E14001356": {
+    "constituency": "Melksham and Devizes",
+    "population": 93200
+  },
+  "E14001357": {
+    "constituency": "Melton and Syston",
+    "population": 94400
+  },
+  "E14001358": {
+    "constituency": "Meriden and Solihull East",
+    "population": 99400
+  },
+  "E14001359": {
+    "constituency": "Mid Bedfordshire",
+    "population": 99600
+  },
+  "E14001360": {
+    "constituency": "Mid Buckinghamshire",
+    "population": 97800
+  },
+  "E14001361": {
+    "constituency": "Mid Cheshire",
+    "population": 94100
+  },
+  "E14001362": {
+    "constituency": "Mid Derbyshire",
+    "population": 88000
+  },
+  "E14001363": {
+    "constituency": "Mid Dorset and North Poole",
+    "population": 96200
+  },
+  "E14001364": {
+    "constituency": "Mid Leicestershire",
+    "population": 98400
+  },
+  "E14001365": {
+    "constituency": "Mid Norfolk",
+    "population": 111000
+  },
+  "E14001366": {
+    "constituency": "Mid Sussex",
+    "population": 92400
+  },
+  "E14001367": {
+    "constituency": "Middlesbrough and Thornaby East",
+    "population": 95100
+  },
+  "E14001368": {
+    "constituency": "Middlesbrough South and East Cleveland",
+    "population": 102000
+  },
+  "E14001369": {
+    "constituency": "Milton Keynes Central",
+    "population": 126000
+  },
+  "E14001370": {
+    "constituency": "Milton Keynes North",
+    "population": 99600
+  },
+  "E14001371": {
+    "constituency": "Mitcham and Morden",
+    "population": 124000
+  },
+  "E14001372": {
+    "constituency": "Morecambe and Lunesdale",
+    "population": 98300
+  },
+  "E14001373": {
+    "constituency": "New Forest East",
+    "population": 107000
+  },
+  "E14001374": {
+    "constituency": "New Forest West",
+    "population": 92900
+  },
+  "E14001375": {
+    "constituency": "Newark",
+    "population": 90800
+  },
+  "E14001376": {
+    "constituency": "Newbury",
+    "population": 85000
+  },
+  "E14001377": {
+    "constituency": "Newcastle upon Tyne Central and West",
+    "population": 97700
+  },
+  "E14001378": {
+    "constituency": "Newcastle upon Tyne East and Wallsend",
+    "population": 131000
+  },
+  "E14001379": {
+    "constituency": "Newcastle upon Tyne North",
+    "population": 115000
+  },
+  "E14001380": {
+    "constituency": "Newcastle-under-Lyme",
+    "population": 105000
+  },
+  "E14001381": {
+    "constituency": "Newton Abbot",
+    "population": 93300
+  },
+  "E14001382": {
+    "constituency": "Newton Aycliffe and Spennymoor",
+    "population": 94500
+  },
+  "E14001383": {
+    "constituency": "Normanton and Hemsworth",
+    "population": 103000
+  },
+  "E14001384": {
+    "constituency": "North Bedfordshire",
+    "population": 92300
+  },
+  "E14001385": {
+    "constituency": "North Cornwall",
+    "population": 98600
+  },
+  "E14001386": {
+    "constituency": "North Cotswolds",
+    "population": 93200
+  },
+  "E14001387": {
+    "constituency": "North Devon",
+    "population": 95000
+  },
+  "E14001388": {
+    "constituency": "North Dorset",
+    "population": 102000
+  },
+  "E14001389": {
+    "constituency": "North Durham",
+    "population": 92400
+  },
+  "E14001390": {
+    "constituency": "North East Cambridgeshire",
+    "population": 101000
+  },
+  "E14001391": {
+    "constituency": "North East Derbyshire",
+    "population": 103000
+  },
+  "E14001392": {
+    "constituency": "North East Hampshire",
+    "population": 95600
+  },
+  "E14001393": {
+    "constituency": "North East Hertfordshire",
+    "population": 90600
+  },
+  "E14001394": {
+    "constituency": "North East Somerset and Hanham",
+    "population": 87000
+  },
+  "E14001395": {
+    "constituency": "North Herefordshire",
+    "population": 91800
+  },
+  "E14001396": {
+    "constituency": "North Norfolk",
+    "population": 101000
+  },
+  "E14001397": {
+    "constituency": "North Northumberland",
+    "population": 94200
+  },
+  "E14001398": {
+    "constituency": "North Shropshire",
+    "population": 93700
+  },
+  "E14001399": {
+    "constituency": "North Somerset",
+    "population": 114000
+  },
+  "E14001400": {
+    "constituency": "North Warwickshire and Bedworth",
+    "population": 105000
+  },
+  "E14001401": {
+    "constituency": "North West Cambridgeshire",
+    "population": 108000
+  },
+  "E14001402": {
+    "constituency": "North West Essex",
+    "population": 99400
+  },
+  "E14001403": {
+    "constituency": "North West Hampshire",
+    "population": 103000
+  },
+  "E14001404": {
+    "constituency": "North West Leicestershire",
+    "population": 128000
+  },
+  "E14001405": {
+    "constituency": "North West Norfolk",
+    "population": 110000
+  },
+  "E14001406": {
+    "constituency": "Northampton North",
+    "population": 104000
+  },
+  "E14001407": {
+    "constituency": "Northampton South",
+    "population": 99200
+  },
+  "E14001408": {
+    "constituency": "Norwich North",
+    "population": 99100
+  },
+  "E14001409": {
+    "constituency": "Norwich South",
+    "population": 105000
+  },
+  "E14001410": {
+    "constituency": "Nottingham East",
+    "population": 122000
+  },
+  "E14001411": {
+    "constituency": "Nottingham North and Kimberley",
+    "population": 109000
+  },
+  "E14001412": {
+    "constituency": "Nottingham South",
+    "population": 109000
+  },
+  "E14001413": {
+    "constituency": "Nuneaton",
+    "population": 99500
+  },
+  "E14001414": {
+    "constituency": "Old Bexley and Sidcup",
+    "population": 101000
+  },
+  "E14001415": {
+    "constituency": "Oldham East and Saddleworth",
+    "population": 109000
+  },
+  "E14001416": {
+    "constituency": "Oldham West, Chadderton and Royton",
+    "population": 112000
+  },
+  "E14001417": {
+    "constituency": "Orpington",
+    "population": 98200
+  },
+  "E14001418": {
+    "constituency": "Ossett and Denby Dale",
+    "population": 93200
+  },
+  "E14001419": {
+    "constituency": "Oxford East",
+    "population": 117000
+  },
+  "E14001420": {
+    "constituency": "Oxford West and Abingdon",
+    "population": 106000
+  },
+  "E14001421": {
+    "constituency": "Peckham",
+    "population": 108000
+  },
+  "E14001422": {
+    "constituency": "Pendle and Clitheroe",
+    "population": 109000
+  },
+  "E14001423": {
+    "constituency": "Penistone and Stocksbridge",
+    "population": 89000
+  },
+  "E14001424": {
+    "constituency": "Penrith and Solway",
+    "population": 97200
+  },
+  "E14001425": {
+    "constituency": "Peterborough",
+    "population": 130000
+  },
+  "E14001426": {
+    "constituency": "Plymouth Moor View",
+    "population": 101000
+  },
+  "E14001427": {
+    "constituency": "Plymouth Sutton and Devonport",
+    "population": 107000
+  },
+  "E14001428": {
+    "constituency": "Pontefract, Castleford and Knottingley",
+    "population": 101000
+  },
+  "E14001429": {
+    "constituency": "Poole",
+    "population": 97200
+  },
+  "E14001430": {
+    "constituency": "Poplar and Limehouse",
+    "population": 139000
+  },
+  "E14001431": {
+    "constituency": "Portsmouth North",
+    "population": 100000
+  },
+  "E14001432": {
+    "constituency": "Portsmouth South",
+    "population": 108000
+  },
+  "E14001433": {
+    "constituency": "Preston",
+    "population": 115000
+  },
+  "E14001434": {
+    "constituency": "Putney",
+    "population": 111000
+  },
+  "E14001435": {
+    "constituency": "Queen's Park and Maida Vale",
+    "population": 124000
+  },
+  "E14001436": {
+    "constituency": "Rawmarsh and Conisbrough",
+    "population": 94300
+  },
+  "E14001437": {
+    "constituency": "Rayleigh and Wickford",
+    "population": 96500
+  },
+  "E14001438": {
+    "constituency": "Reading Central",
+    "population": 116000
+  },
+  "E14001439": {
+    "constituency": "Reading West and Mid Berkshire",
+    "population": 95300
+  },
+  "E14001440": {
+    "constituency": "Redcar",
+    "population": 93300
+  },
+  "E14001441": {
+    "constituency": "Redditch",
+    "population": 98800
+  },
+  "E14001442": {
+    "constituency": "Reigate",
+    "population": 109000
+  },
+  "E14001443": {
+    "constituency": "Ribble Valley",
+    "population": 99100
+  },
+  "E14001444": {
+    "constituency": "Richmond and Northallerton",
+    "population": 93000
+  },
+  "E14001445": {
+    "constituency": "Richmond Park",
+    "population": 111000
+  },
+  "E14001446": {
+    "constituency": "Rochdale",
+    "population": 103000
+  },
+  "E14001447": {
+    "constituency": "Rochester and Strood",
+    "population": 103000
+  },
+  "E14001448": {
+    "constituency": "Romford",
+    "population": 108000
+  },
+  "E14001449": {
+    "constituency": "Romsey and Southampton North",
+    "population": 98600
+  },
+  "E14001450": {
+    "constituency": "Rossendale and Darwen",
+    "population": 101000
+  },
+  "E14001451": {
+    "constituency": "Rother Valley",
+    "population": 108000
+  },
+  "E14001452": {
+    "constituency": "Rotherham",
+    "population": 91700
+  },
+  "E14001453": {
+    "constituency": "Rugby",
+    "population": 109000
+  },
+  "E14001454": {
+    "constituency": "Ruislip, Northwood and Pinner",
+    "population": 99900
+  },
+  "E14001455": {
+    "constituency": "Runcorn and Helsby",
+    "population": 93100
+  },
+  "E14001456": {
+    "constituency": "Runnymede and Weybridge",
+    "population": 106000
+  },
+  "E14001457": {
+    "constituency": "Rushcliffe",
+    "population": 100000
+  },
+  "E14001458": {
+    "constituency": "Rutland and Stamford",
+    "population": 94200
+  },
+  "E14001459": {
+    "constituency": "Salford",
+    "population": 121000
+  },
+  "E14001460": {
+    "constituency": "Salisbury",
+    "population": 92500
+  },
+  "E14001461": {
+    "constituency": "Scarborough and Whitby",
+    "population": 97200
+  },
+  "E14001462": {
+    "constituency": "Scunthorpe",
+    "population": 105000
+  },
+  "E14001463": {
+    "constituency": "Sefton Central",
+    "population": 90800
+  },
+  "E14001464": {
+    "constituency": "Selby",
+    "population": 101000
+  },
+  "E14001465": {
+    "constituency": "Sevenoaks",
+    "population": 99500
+  },
+  "E14001466": {
+    "constituency": "Sheffield Brightside and Hillsborough",
+    "population": 110000
+  },
+  "E14001467": {
+    "constituency": "Sheffield Central",
+    "population": 89900
+  },
+  "E14001468": {
+    "constituency": "Sheffield Hallam",
+    "population": 93000
+  },
+  "E14001469": {
+    "constituency": "Sheffield Heeley",
+    "population": 106000
+  },
+  "E14001470": {
+    "constituency": "Sheffield South East",
+    "population": 104000
+  },
+  "E14001471": {
+    "constituency": "Sherwood Forest",
+    "population": 103000
+  },
+  "E14001472": {
+    "constituency": "Shipley",
+    "population": 97400
+  },
+  "E14001473": {
+    "constituency": "Shrewsbury",
+    "population": 100000
+  },
+  "E14001474": {
+    "constituency": "Sittingbourne and Sheppey",
+    "population": 113000
+  },
+  "E14001475": {
+    "constituency": "Skipton and Ripon",
+    "population": 97600
+  },
+  "E14001476": {
+    "constituency": "Sleaford and North Hykeham",
+    "population": 96300
+  },
+  "E14001477": {
+    "constituency": "Slough",
+    "population": 138000
+  },
+  "E14001478": {
+    "constituency": "Smethwick",
+    "population": 115000
+  },
+  "E14001479": {
+    "constituency": "Solihull West and Shirley",
+    "population": 92300
+  },
+  "E14001480": {
+    "constituency": "South Basildon and East Thurrock",
+    "population": 94500
+  },
+  "E14001481": {
+    "constituency": "South Cambridgeshire",
+    "population": 94700
+  },
+  "E14001482": {
+    "constituency": "South Cotswolds",
+    "population": 90700
+  },
+  "E14001483": {
+    "constituency": "South Derbyshire",
+    "population": 98500
+  },
+  "E14001484": {
+    "constituency": "South Devon",
+    "population": 91000
+  },
+  "E14001485": {
+    "constituency": "South Dorset",
+    "population": 109000
+  },
+  "E14001486": {
+    "constituency": "South East Cornwall",
+    "population": 102000
+  },
+  "E14001487": {
+    "constituency": "South Holland and The Deepings",
+    "population": 88800
+  },
+  "E14001488": {
+    "constituency": "South Leicestershire",
+    "population": 95000
+  },
+  "E14001489": {
+    "constituency": "South Norfolk",
+    "population": 92300
+  },
+  "E14001490": {
+    "constituency": "South Northamptonshire",
+    "population": 97000
+  },
+  "E14001491": {
+    "constituency": "South Ribble",
+    "population": 104000
+  },
+  "E14001492": {
+    "constituency": "South Shields",
+    "population": 96900
+  },
+  "E14001493": {
+    "constituency": "South Shropshire",
+    "population": 110000
+  },
+  "E14001494": {
+    "constituency": "South Suffolk",
+    "population": 111000
+  },
+  "E14001495": {
+    "constituency": "South West Devon",
+    "population": 98200
+  },
+  "E14001496": {
+    "constituency": "South West Hertfordshire",
+    "population": 103000
+  },
+  "E14001497": {
+    "constituency": "South West Norfolk",
+    "population": 128000
+  },
+  "E14001498": {
+    "constituency": "South West Wiltshire",
+    "population": 97400
+  },
+  "E14001499": {
+    "constituency": "Southampton Itchen",
+    "population": 101000
+  },
+  "E14001500": {
+    "constituency": "Southampton Test",
+    "population": 105000
+  },
+  "E14001501": {
+    "constituency": "Southend East and Rochford",
+    "population": 92500
+  },
+  "E14001502": {
+    "constituency": "Southend West and Leigh",
+    "population": 102000
+  },
+  "E14001503": {
+    "constituency": "Southgate and Wood Green",
+    "population": 94700
+  },
+  "E14001504": {
+    "constituency": "Southport",
+    "population": 99000
+  },
+  "E14001505": {
+    "constituency": "Spelthorne",
+    "population": 103000
+  },
+  "E14001506": {
+    "constituency": "Spen Valley",
+    "population": 95200
+  },
+  "E14001507": {
+    "constituency": "St Albans",
+    "population": 100000
+  },
+  "E14001508": {
+    "constituency": "St Austell and Newquay",
+    "population": 88500
+  },
+  "E14001509": {
+    "constituency": "St Helens North",
+    "population": 94500
+  },
+  "E14001510": {
+    "constituency": "St Helens South and Whiston",
+    "population": 85200
+  },
+  "E14001511": {
+    "constituency": "St Ives",
+    "population": 97300
+  },
+  "E14001512": {
+    "constituency": "St Neots and Mid Cambridgeshire",
+    "population": 100000
+  },
+  "E14001513": {
+    "constituency": "Stafford",
+    "population": 99500
+  },
+  "E14001514": {
+    "constituency": "Staffordshire Moorlands",
+    "population": 99800
+  },
+  "E14001515": {
+    "constituency": "Stalybridge and Hyde",
+    "population": 94800
+  },
+  "E14001516": {
+    "constituency": "Stevenage",
+    "population": 106000
+  },
+  "E14001517": {
+    "constituency": "Stockport",
+    "population": 105000
+  },
+  "E14001518": {
+    "constituency": "Stockton North",
+    "population": 99100
+  },
+  "E14001519": {
+    "constituency": "Stockton West",
+    "population": 91300
+  },
+  "E14001520": {
+    "constituency": "Stoke-on-Trent Central",
+    "population": 113000
+  },
+  "E14001521": {
+    "constituency": "Stoke-on-Trent North",
+    "population": 100000
+  },
+  "E14001522": {
+    "constituency": "Stoke-on-Trent South",
+    "population": 94500
+  },
+  "E14001523": {
+    "constituency": "Stone, Great Wyrley and Penkridge",
+    "population": 92800
+  },
+  "E14001524": {
+    "constituency": "Stourbridge",
+    "population": 92900
+  },
+  "E14001525": {
+    "constituency": "Stratford and Bow",
+    "population": 128000
+  },
+  "E14001526": {
+    "constituency": "Stratford-on-Avon",
+    "population": 95100
+  },
+  "E14001527": {
+    "constituency": "Streatham and Croydon North",
+    "population": 119000
+  },
+  "E14001528": {
+    "constituency": "Stretford and Urmston",
+    "population": 102000
+  },
+  "E14001529": {
+    "constituency": "Stroud",
+    "population": 96000
+  },
+  "E14001530": {
+    "constituency": "Suffolk Coastal",
+    "population": 93200
+  },
+  "E14001531": {
+    "constituency": "Sunderland Central",
+    "population": 97400
+  },
+  "E14001532": {
+    "constituency": "Surrey Heath",
+    "population": 98100
+  },
+  "E14001533": {
+    "constituency": "Sussex Weald",
+    "population": 90900
+  },
+  "E14001534": {
+    "constituency": "Sutton and Cheam",
+    "population": 105000
+  },
+  "E14001535": {
+    "constituency": "Sutton Coldfield",
+    "population": 96700
+  },
+  "E14001536": {
+    "constituency": "Swindon North",
+    "population": 106000
+  },
+  "E14001537": {
+    "constituency": "Swindon South",
+    "population": 113000
+  },
+  "E14001538": {
+    "constituency": "Tamworth",
+    "population": 100000
+  },
+  "E14001539": {
+    "constituency": "Tatton",
+    "population": 97900
+  },
+  "E14001540": {
+    "constituency": "Taunton and Wellington",
+    "population": 108000
+  },
+  "E14001541": {
+    "constituency": "Telford",
+    "population": 105000
+  },
+  "E14001542": {
+    "constituency": "Tewkesbury",
+    "population": 96600
+  },
+  "E14001543": {
+    "constituency": "The Wrekin",
+    "population": 108000
+  },
+  "E14001544": {
+    "constituency": "Thirsk and Malton",
+    "population": 96800
+  },
+  "E14001545": {
+    "constituency": "Thornbury and Yate",
+    "population": 98200
+  },
+  "E14001546": {
+    "constituency": "Thurrock",
+    "population": 121000
+  },
+  "E14001547": {
+    "constituency": "Tipton and Wednesbury",
+    "population": 114000
+  },
+  "E14001548": {
+    "constituency": "Tiverton and Minehead",
+    "population": 91200
+  },
+  "E14001549": {
+    "constituency": "Tonbridge",
+    "population": 97200
+  },
+  "E14001550": {
+    "constituency": "Tooting",
+    "population": 107000
+  },
+  "E14001551": {
+    "constituency": "Torbay",
+    "population": 104000
+  },
+  "E14001552": {
+    "constituency": "Torridge and Tavistock",
+    "population": 95500
+  },
+  "E14001553": {
+    "constituency": "Tottenham",
+    "population": 136000
+  },
+  "E14001554": {
+    "constituency": "Truro and Falmouth",
+    "population": 94900
+  },
+  "E14001555": {
+    "constituency": "Tunbridge Wells",
+    "population": 105000
+  },
+  "E14001556": {
+    "constituency": "Twickenham",
+    "population": 107000
+  },
+  "E14001557": {
+    "constituency": "Tynemouth",
+    "population": 95200
+  },
+  "E14001558": {
+    "constituency": "Uxbridge and South Ruislip",
+    "population": 118000
+  },
+  "E14001559": {
+    "constituency": "Vauxhall and Camberwell Green",
+    "population": 103000
+  },
+  "E14001560": {
+    "constituency": "Wakefield and Rothwell",
+    "population": 106000
+  },
+  "E14001561": {
+    "constituency": "Wallasey",
+    "population": 96400
+  },
+  "E14001562": {
+    "constituency": "Walsall and Bloxwich",
+    "population": 117000
+  },
+  "E14001563": {
+    "constituency": "Walthamstow",
+    "population": 122000
+  },
+  "E14001564": {
+    "constituency": "Warrington North",
+    "population": 96600
+  },
+  "E14001565": {
+    "constituency": "Warrington South",
+    "population": 102000
+  },
+  "E14001566": {
+    "constituency": "Warwick and Leamington",
+    "population": 105000
+  },
+  "E14001567": {
+    "constituency": "Washington and Gateshead South",
+    "population": 94600
+  },
+  "E14001568": {
+    "constituency": "Watford",
+    "population": 110000
+  },
+  "E14001569": {
+    "constituency": "Waveney Valley",
+    "population": 88200
+  },
+  "E14001570": {
+    "constituency": "Weald of Kent",
+    "population": 92800
+  },
+  "E14001571": {
+    "constituency": "Wellingborough and Rushden",
+    "population": 112000
+  },
+  "E14001572": {
+    "constituency": "Wells and Mendip Hills",
+    "population": 88600
+  },
+  "E14001573": {
+    "constituency": "Welwyn Hatfield",
+    "population": 114000
+  },
+  "E14001574": {
+    "constituency": "West Bromwich",
+    "population": 111000
+  },
+  "E14001575": {
+    "constituency": "West Dorset",
+    "population": 93600
+  },
+  "E14001576": {
+    "constituency": "West Ham and Beckton",
+    "population": 137000
+  },
+  "E14001577": {
+    "constituency": "West Lancashire",
+    "population": 100000
+  },
+  "E14001578": {
+    "constituency": "West Suffolk",
+    "population": 90900
+  },
+  "E14001579": {
+    "constituency": "West Worcestershire",
+    "population": 96900
+  },
+  "E14001580": {
+    "constituency": "Westmorland and Lonsdale",
+    "population": 118000
+  },
+  "E14001581": {
+    "constituency": "Weston-super-Mare",
+    "population": 98200
+  },
+  "E14001582": {
+    "constituency": "Wetherby and Easingwold",
+    "population": 91500
+  },
+  "E14001583": {
+    "constituency": "Whitehaven and Workington",
+    "population": 93000
+  },
+  "E14001584": {
+    "constituency": "Widnes and Halewood",
+    "population": 92400
+  },
+  "E14001585": {
+    "constituency": "Wigan",
+    "population": 105000
+  },
+  "E14001586": {
+    "constituency": "Wimbledon",
+    "population": 110000
+  },
+  "E14001587": {
+    "constituency": "Winchester",
+    "population": 105000
+  },
+  "E14001588": {
+    "constituency": "Windsor",
+    "population": 111000
+  },
+  "E14001589": {
+    "constituency": "Wirral West",
+    "population": 87900
+  },
+  "E14001590": {
+    "constituency": "Witham",
+    "population": 102000
+  },
+  "E14001591": {
+    "constituency": "Witney",
+    "population": 97200
+  },
+  "E14001592": {
+    "constituency": "Woking",
+    "population": 104000
+  },
+  "E14001593": {
+    "constituency": "Wokingham",
+    "population": 98200
+  },
+  "E14001594": {
+    "constituency": "Wolverhampton North East",
+    "population": 105000
+  },
+  "E14001595": {
+    "constituency": "Wolverhampton South East",
+    "population": 120000
+  },
+  "E14001596": {
+    "constituency": "Wolverhampton West",
+    "population": 113000
+  },
+  "E14001597": {
+    "constituency": "Worcester",
+    "population": 104000
+  },
+  "E14001598": {
+    "constituency": "Worsley and Eccles",
+    "population": 107000
+  },
+  "E14001599": {
+    "constituency": "Worthing West",
+    "population": 99700
+  },
+  "E14001600": {
+    "constituency": "Wycombe",
+    "population": 106000
+  },
+  "E14001601": {
+    "constituency": "Wyre Forest",
+    "population": 102000
+  },
+  "E14001602": {
+    "constituency": "Wythenshawe and Sale East",
+    "population": 112000
+  },
+  "E14001603": {
+    "constituency": "Yeovil",
+    "population": 105000
+  },
+  "E14001604": {
+    "constituency": "York Central",
+    "population": 109000
+  },
+  "E14001605": {
+    "constituency": "York Outer",
+    "population": 93500
+  },
+  "W07000081": {
+    "constituency": "Aberafan Maesteg",
+    "population": 92600
+  },
+  "W07000082": {
+    "constituency": "Alyn and Deeside",
+    "population": 102000
+  },
+  "W07000083": {
+    "constituency": "Bangor Aberconwy",
+    "population": 92300
+  },
+  "W07000084": {
+    "constituency": "Blaenau Gwent and Rhymney",
+    "population": 94400
+  },
+  "W07000085": {
+    "constituency": "Brecon, Radnor and Cwm Tawe",
+    "population": 92100
+  },
+  "W07000086": {
+    "constituency": "Bridgend",
+    "population": 95100
+  },
+  "W07000087": {
+    "constituency": "Caerfyrddin",
+    "population": 93900
+  },
+  "W07000088": {
+    "constituency": "Caerphilly",
+    "population": 96400
+  },
+  "W07000089": {
+    "constituency": "Cardiff East",
+    "population": 108000
+  },
+  "W07000090": {
+    "constituency": "Cardiff North",
+    "population": 93900
+  },
+  "W07000091": {
+    "constituency": "Cardiff South and Penarth",
+    "population": 106000
+  },
+  "W07000092": {
+    "constituency": "Cardiff West",
+    "population": 103000
+  },
+  "W07000093": {
+    "constituency": "Ceredigion Preseli",
+    "population": 93800
+  },
+  "W07000094": {
+    "constituency": "Clwyd East",
+    "population": 96100
+  },
+  "W07000095": {
+    "constituency": "Clwyd North",
+    "population": 100000
+  },
+  "W07000096": {
+    "constituency": "Dwyfor Meirionnydd",
+    "population": 94500
+  },
+  "W07000097": {
+    "constituency": "Gower",
+    "population": 96300
+  },
+  "W07000098": {
+    "constituency": "Llanelli",
+    "population": 94100
+  },
+  "W07000099": {
+    "constituency": "Merthyr Tydfil and Aberdare",
+    "population": 99700
+  },
+  "W07000100": {
+    "constituency": "Mid and South Pembrokeshire",
+    "population": 101000
+  },
+  "W07000101": {
+    "constituency": "Monmouthshire",
+    "population": 92900
+  },
+  "W07000102": {
+    "constituency": "Montgomeryshire and Glyndŵr",
+    "population": 97800
+  },
+  "W07000103": {
+    "constituency": "Neath and Swansea East",
+    "population": 99500
+  },
+  "W07000104": {
+    "constituency": "Newport East",
+    "population": 110000
+  },
+  "W07000105": {
+    "constituency": "Newport West and Islwyn",
+    "population": 102000
+  },
+  "W07000106": {
+    "constituency": "Pontypridd",
+    "population": 101000
+  },
+  "W07000107": {
+    "constituency": "Rhondda and Ogmore",
+    "population": 100000
+  },
+  "W07000108": {
+    "constituency": "Swansea West",
+    "population": 105000
+  },
+  "W07000109": {
+    "constituency": "Torfaen",
+    "population": 92300
+  },
+  "W07000110": {
+    "constituency": "Vale of Glamorgan",
+    "population": 94400
+  },
+  "W07000111": {
+    "constituency": "Wrexham",
+    "population": 99100
+  },
+  "W07000112": {
+    "constituency": "Ynys Môn",
+    "population": 68900
+  }
+}
