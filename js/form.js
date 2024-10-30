@@ -8,6 +8,7 @@
   PetitionMap.is_weighted = PetitionMap.is_weighted || true;
 
   var ui_hidden = false,
+    baseUrl = 'https://petition.parliament.uk',
     spinnerOpts = { // Options for loading spinner
       lines: 13,
       length: 28,
@@ -34,12 +35,12 @@
     spinner = new Spinner(spinnerOpts).spin(target);
 
   function populatePetitionDropdown() {
-    return $.getJSON('https://petition.parliament.uk/petitions.json?state=open')
+    return $.getJSON(baseUrl + '/petitions.json?state=open')
       .then(function (data) {
         if (data.data.length == 0) {
           // No open petitions means parliament is dissolved or the committee is waiting
           // to be reconstituted after a general election so load the closed petitions
-          return $.getJSON('https://petition.parliament.uk/petitions.json?state=closed');
+          return $.getJSON(baseUrl + '/petitions.json?state=closed');
         } else {
           return data;
         }
@@ -111,7 +112,7 @@
 
   // Loads MP JSON data and fills constituency dropdown
   function loadMPData() {
-    return $.getJSON('https://petition.parliament.uk/constituencies.json')
+    return $.getJSON(baseUrl + '/constituencies.json')
       .done(function (data) {
         PetitionMap.mp_data = data;
         var sorted_mp_data = []
@@ -161,7 +162,7 @@
     if (petitionReference.match(/^https:\/\/petition\.parliament\.uk(?:\/archived)?\/petitions\/\d+/i)) {
       return petitionReference.replace(/(\/|\.json)$/,'');
     } else if (petitionReference.match(/^\d+$/)) {
-      return 'https://petition.parliament.uk/petitions/' + petitionReference;
+      return baseUrl + '/petitions/' + petitionReference;
     } else {
       return ''
     }
@@ -264,7 +265,7 @@
 
     var count = numberWithCommas(PetitionMap.current_petition.data.attributes.signature_count);
 
-    var sign_link = 'https://petition.parliament.uk/petitions/' + PetitionMap.current_petition.data.id;
+    var sign_link = baseUrl + '/petitions/' + PetitionMap.current_petition.data.id;
     var count_html = '<p class="signatures_count"><span class="data">' + count + '</span> signatures</p>';
     var sign_html = '<a class="flat_button sign" id="sign_petition_btn" href="' + sign_link + '"><i class="fa fa-pencil"></i> Sign Petition</a>';
 
