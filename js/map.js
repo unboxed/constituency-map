@@ -34,7 +34,8 @@
       "DemocraticUnionistParty",
       "SinnFin",
       "SocialDemocraticLabourParty",
-      "UlsterUnionistParty"
+      "UlsterUnionistParty",
+      "ReformUK"
   ];
 
   computeSize();
