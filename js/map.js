@@ -1,4 +1,5 @@
 (function($, d3, PetitionMap) {
+  PetitionMap.period = PetitionMap.period || 'current';
   PetitionMap.current_petition = PetitionMap.current_petition || undefined;
   PetitionMap.mp_data = PetitionMap.mp_data || undefined;
   PetitionMap.population_data = PetitionMap.population_data || undefined;

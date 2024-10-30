@@ -1,4 +1,5 @@
 (function($, PetitionMap) {
+  PetitionMap.period = PetitionMap.period || 'current';
   PetitionMap.current_petition = PetitionMap.current_petition || undefined;
   PetitionMap.mp_data = PetitionMap.mp_data || undefined;
   PetitionMap.population_data = PetitionMap.population_data || undefined;
@@ -132,7 +133,7 @@
 
   // Load population JSON data
   function loadPopulationData() {
-    return $.getJSON('json/mps/population_ons.json')
+    return $.getJSON('json/mps/' + PetitionMap.period + '/population_ons.json')
       .done(function (data) {
         PetitionMap.population_data = data;
       });
@@ -312,7 +313,7 @@
 
   // Reload map
   function reloadMap() {
-    var dataFile = 'json/uk/' + PetitionMap.current_area + '/topo_wpc.json';
+    var dataFile = 'json/uk/' + PetitionMap.period + '/' + PetitionMap.current_area + '/topo_wpc.json';
     return $.when(PetitionMap.loadMapData(dataFile, 'wpc')).then(function() {
       displayPetitionInfo();
       $('#key').fadeIn();
