@@ -36,33 +36,9 @@
     target = document.getElementById('spinner_area'),
     spinner = new Spinner(spinnerOpts).spin(target);
 
-  function populatePetitionDropdown() {
-    return $.getJSON(baseUrl + '/petitions.json?state=open')
-      .then(function (data) {
-        if (data.data.length == 0) {
-          // No open petitions means parliament is dissolved or the committee is waiting
-          // to be reconstituted after a general election so load the closed petitions
-          return $.getJSON(baseUrl + '/petitions.json?state=closed');
-        } else {
-          return data;
-        }
-      })
-      .done(function (data) {
-        var petitions = data.data;
-        $.each(petitions, function (index, item) {
-            var dropdown_text = item.attributes.action;
-            $('#petition_dropdown').append(
-                $('<option></option>').val(item.id).html(dropdown_text)
-            );
-        });
-      });
-  };
-
   // On start load the petition data
   $(document).ready(function() {
-    $.when(populatePetitionDropdown()).then(function() {
-      preparePetitionAndView();
-    });
+    preparePetitionAndView();
   });
 
   // Setup petition ui and map based on initial url params
@@ -71,23 +47,12 @@
         area,
         petition_id;
 
-    if (variables.petition !== undefined) {
-      petition_id = variables.petition;
-    } else {
-      petition_id = $('#petition_dropdown').val();
-    }
-
+    petition_id = '700086';
     area = 'uk';
-    if (variables.area !== undefined) {
-      if (possibleAreas().indexOf(variables.area) !== -1) {
-        area = variables.area;
-      }
-    }
 
     PetitionMap.current_area = area;
     $('input[name=area][value=' + area + ']').prop('checked',true);
-    $('#petition_dropdown option[value=' + petition_id + ']').prop('selected', true);
-    return loadPetition(petition_id, false);
+    return loadPetition();
   }
 
   function possibleAreas() {
@@ -171,14 +136,14 @@
   }
 
   // Loads petition from UK Government Petition site
-  function loadPetition(petitionReference) {
-    var petitionUrl = getPetitionUrlFromReference(petitionReference),
+  function loadPetition() {
+    var petitionUrl = '/json/signatures',
       deferredPetitionLoadedAndDrawn = new $.Deferred();
 
     $.getJSON(petitionUrl + '.json')
       .done(function (data) {
-        PetitionMap.type = data.data.type
-        PetitionMap.period = (PetitionMap.type == 'archived-petition' ? data.data.parliament.period : 'current')
+        PetitionMap.type = 'petition'
+        PetitionMap.period = 'current'
         PetitionMap.current_petition = data;
 
         $.when(loadPopulationData(), loadMPData()).then(function() {
@@ -191,7 +156,6 @@
           }, function() {
             deferredPetitionLoadedAndDrawn.reject();
           });
-          addPetitionToDropdown(petitionReference, data.data.attributes.action);
         });
       })
       .fail(function() {
@@ -322,30 +286,10 @@
   function reloadMap() {
     var dataFile = 'json/uk/' + PetitionMap.period + '/' + PetitionMap.current_area + '/topo_wpc.json';
     return $.when(PetitionMap.loadMapData(dataFile, 'wpc')).then(function() {
-      displayPetitionInfo();
       $('#key').fadeIn();
       spinner.stop();
     });
   }
-
-  function showPetitionFromDropdown() {
-    spinner.spin(target);
-    var petition_id = $('#petition_dropdown').val()
-
-    $.when(loadPetition(petition_id, false)).then(function() {
-      pushstateHandler();
-    });
-  };
-
-  function showPetitionFromUrlInput() {
-    spinner.spin(target);
-
-    var petition_url = $('#petition_url').val()
-
-    $.when(loadPetition(petition_url, false)).then(function() {
-      pushstateHandler();
-    });
-  };
 
   function highlightConstituencyFromDropdown() {
     var ons_code = $('#constituency').val(),
@@ -419,36 +363,6 @@
     }
   };
 
-  function invokeAboutModal() {
-    // Clone modal
-    var modal_panel = $('#about-modal .about-panel').clone();
-
-    // Open modal
-    vex.dialog.open({
-      message: modal_panel,
-      buttons: [
-        $.extend({}, vex.dialog.buttons.NO, { text: 'Close' })
-      ]
-    });
-  }
-
-  function invokeShareModal() {
-    var state = buildCurrentState(),
-      url = buildCurrentURL(state);
-
-    // Clone modal
-    var modal_panel = $('#share-modal .share-panel').clone();
-    modal_panel.find('input[name=petition-link]').val(url);
-
-    // Open modal
-    vex.dialog.open({
-      message: modal_panel,
-      buttons: [
-        $.extend({}, vex.dialog.buttons.NO, { text: 'Close' })
-      ]
-    });
-  };
-
   ////////////////////////////////////////////////////////////////////////
 
 
@@ -457,11 +371,6 @@
 
   // Weighted selection
   $('input[name="weighted"]').on('change', changeColouring);
-
-  // Petition selection
-  $('#petition_dropdown').on('change', showPetitionFromDropdown);
-
-  $('#petition_button').on('click', showPetitionFromUrlInput);
 
   // Constituency selection
   $('#constituency').on('change', highlightConstituencyFromDropdown);
@@ -472,14 +381,8 @@
 
   $(window).on('petitionmap:constituency-off', hideConstituencyInfo);
 
-  // Create & open sharing modal
-  $('.share-button').on('click', invokeShareModal);
-
   // Button to hide UI
   $('.hide-ui').on('click', toggleFormUI);
-
-  // Create & open about modal
-  $('.about-button').on('click', invokeAboutModal);
 
   function buildCurrentState() {
     var state = {};
