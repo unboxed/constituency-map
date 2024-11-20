@@ -8,7 +8,7 @@
   function tweetCurrentPage() {
     var link = getUrl();
 
-    window.open("https://twitter.com/share?url="+escape(link)+"&text="+encodeURIComponent("Check out this petition map")+"&hashtags=petitionmap", '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    window.open("https://twitter.com/share?url="+escape(link)+"&text="+encodeURIComponent("Check out this constituency map")+"&hashtags=petitionmap", '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
     return false;
   }
 
@@ -16,7 +16,7 @@
   function facebookCurrentPage() {
     var link = getUrl();
 
-    window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(link)+"&t="+encodeURIComponent("Petition Map (By Unboxed)"), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+    window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(link)+"&t="+encodeURIComponent("Constituency Map (By Unboxed)"), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
     return false;
   }
 
